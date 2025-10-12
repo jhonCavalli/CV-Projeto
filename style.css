@@ -1,4 +1,5 @@
 :root {
+            --background: #165282;
             --primary: #2C3E50;
             --secondary: #3498DB;
             --accent: #2980B9;
@@ -25,6 +26,17 @@
             background-color: #f9f9f9;
             color: var(--text);
             line-height: 1.6;
+        }
+
+
+        /* Canvas de partículas */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
         }
 
         .container {
