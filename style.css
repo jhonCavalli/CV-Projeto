@@ -34,7 +34,7 @@
             width: 20px;
             height: 20px;
             border-radius: 50%;
-            background: var(--secondary);
+            background: var(--dark);
             pointer-events: none;
             z-index: 9999;
             mix-blend-mode: difference;
@@ -46,11 +46,11 @@
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            border: 2px solid rgba(52, 152, 219, 0.5);
+            border: 2px solid rgba(59, 121, 162, 0.5);
             pointer-events: none;
             z-index: 9998;
             transition: transform 0.4s, opacity 0.4s;
-            opacity: 0.7;
+            opacity: 0.10;
         }
 
           /* Canvas de partículas */

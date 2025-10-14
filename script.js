@@ -100,9 +100,9 @@
                                  * (particlesArray[a].y - particlesArray[b].y));
                     
                     if (distance < (canvas.width / 7) * (canvas.height / 7)) {
-                        opacityValue = 1 - (distance / 20000);
+                        opacityValue = 1 - (distance / 30000);
                         ctx.strokeStyle = `rgba(52, 152, 219, ${opacityValue})`;
-                        ctx.lineWidth = 1;
+                        ctx.lineWidth =-3;
                         ctx.beginPath();
                         ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
                         ctx.lineTo(particlesArray[b].x, particlesArray[b].y);
